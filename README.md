@@ -13,6 +13,18 @@ database connection libraries, distributed task queues, etc.
 
 `asyncio` is often a perfect fit for IO-bound and high-level structured network code.
 
+At the heart of async IO are coroutines.
+A coroutine is a specialized version of a Python generator function.
+Let’s start with a baseline definition and then build off of it as you progress here:
+a coroutine is a function that can suspend its execution before reaching return,
+and it can indirectly pass control to another coroutine for some time.
+
+`time.sleep()` can represent any time-consuming blocking function call,
+while `asyncio.sleep()` is used to stand in for a non-blocking call
+(but one that also takes some time to complete).
+
+
+
 ## Credits:
 
 - [Real Python Tutorials](https://realpython.com/async-io-python/#odds-and-ends)
