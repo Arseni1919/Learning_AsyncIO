@@ -27,8 +27,10 @@ while `asyncio.sleep()` is used to stand in for a non-blocking call
 
 ## Credits:
 
-- [Real Python Tutorials](https://realpython.com/async-io-python/#odds-and-ends)
-
+- [Real Python Tutorials - Async IO](https://realpython.com/async-io-python/#odds-and-ends)
+- [Real Python Tutorials - Regular Expressions: Regexes in Python](https://realpython.com/regex-python/#regexes-in-python-and-their-uses)
+- [Real Python Tutorials - `try`, `except`, `else`, `finally`](https://realpython.com/python-exceptions/#cleaning-up-after-using-finally)
+- [PEP - asynchronous context managers](https://www.python.org/dev/peps/pep-0492/#asynchronous-context-managers-and-async-with)
 
 
 

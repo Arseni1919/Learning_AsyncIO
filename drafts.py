@@ -1,4 +1,4 @@
-
+import urllib.parse
 # ANSI colors
 c = (
     "\033[0m",  # End of color
@@ -8,3 +8,6 @@ c = (
 )
 idx = 0
 print("\033[36m" + f"Initiated makerandom().")
+
+
+print(urllib.parse.urlparse('http://apple.com'))
